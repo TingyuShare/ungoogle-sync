@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "wrangler pages dev ./public --compatibility-date=2024-01-01",
     "build": "node scripts/build.js",
-    "deploy": "npm run build && wrangler pages deploy ./dist --project=ungoogle-sync"
+    "deploy": "npm run build && wrangler pages deploy ./dist --project-name=ungoogle-sync"
   },
   "devDependencies": {
     "wrangler": "^3.0.0"
